@@ -8,12 +8,12 @@ This is just a small C++ program that reads the Reconstruction.json file and pro
 The resulting file each name as _IMAGE_FILE_NAME.txt_, for example Camera100.jpg.txt storing the projection matrix for the image Camera100.jpg
 
 The format of the resulting file is simply
-
-p11 p12 p13 p14
-p21 p22 p23 p24
-p31 p32 p33 p34
-
-gps_x pgs_y gps_z
+<br>
+p11 p12 p13 p14<br>
+p21 p22 p23 p24<br>
+p31 p32 p33 p34<br>
+<br>
+gps_x pgs_y gps_z<br>
 
 The code is developed in C++ using MS Visual Studio 2012 as IDE without referering to any MFC specific function. It uses [RapidJson](http://rapidjson.org/) for reading json file. However, there is no need to download any as all the necessary files are already included in the folder "external".
 
