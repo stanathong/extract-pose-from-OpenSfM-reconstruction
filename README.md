@@ -18,9 +18,12 @@ gps_x pgs_y gps_z<br>
 The code is developed in C++ using MS Visual Studio 2012 as IDE without referering to any MFC specific function. It uses [RapidJson](http://rapidjson.org/) for reading json file. However, there is no need to download any as all the necessary files are already included in the folder "external".
 
 After building, it can be run on Windows by using command
-`undistort PATH_TO_RECONSTRUCTION.json`
-For example, 
-`undistort D:/OpenSfM/Results/Reconstruction.json`
+`undistort PATH_TO_RECONSTRUCTION.json`<br>
+
+I have included an example reconstruction file in the folder Data. <br>
+
+An example to run this under cmd terminal on Windows is by <br>
+`undistort D:/extract-pose-from-OpenSfM-reconstruction/undistort/Data/reconstruction_20151022_153411_CW_4.json`
 
 The code will create a new folder named `undistorted` under the main path, by using system command. This is the only command that makes it restricted to run on Windows. However, the program will work fine on Linux just simply comments out this line:
 
