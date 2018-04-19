@@ -1,0 +1,108 @@
+[
+    {
+        "cameras": {
+            "v2 pointgrey zebra2cropped-carriageway -1 -1 perspective 0.9375": {
+                "focal_prior": 0.9375, 
+                "width": 1920, 
+                "k1": -0.267036322586622, 
+                "k2": 0.09380938946517986, 
+                "k1_prior": 0.0, 
+                "k2_prior": 0.0, 
+                "projection_type": "perspective", 
+                "focal": 0.7367967826921125, 
+                "height": 1080
+            }
+        }, 
+        "shots": {
+            "Carriageway_266.jpg": {
+                "orientation": 1, 
+                "camera": "v2 pointgrey zebra2cropped-carriageway -1 -1 perspective 0.9375", 
+                "gps_position": [
+                    94.168303532631541, 
+                    63.072445656045602, 
+                    1.998994910158217
+                ], 
+                "gps_dop": 0.85, 
+                "rotation": [
+                    0.48971183624421588, 
+                    -2.0022643536982558, 
+                    0.61439030671247852
+                ], 
+                "translation": [
+                    23.352458684704132, 
+                    -15.387391103083935, 
+                    -10.820629771762558
+                ], 
+                "capture_time": 0.0
+            }
+        },
+        "points": {
+            "378466": {
+                "color": [
+                    67.0, 
+                    69.0, 
+                    84.0
+                ], 
+                "reprojection_error": 0.00016234791815200565, 
+                "coordinates": [
+                    19.067313780916436, 
+                    23.05633135798358, 
+                    2.0025169257826514
+                ]
+            }
+	}
+    },
+    {
+        "cameras": {
+            "v2 pointgrey zebra2cropped-carriageway -1 -1 perspective 0.9375": {
+                "focal_prior": 0.9375, 
+                "width": 1920, 
+                "k1": -0.0891269691349463, 
+                "k2": -0.12479260718620439, 
+                "k1_prior": 0.0, 
+                "k2_prior": 0.0, 
+                "projection_type": "perspective", 
+                "focal": 0.9807847968206725, 
+                "height": 1080
+            }
+        }, 
+        "shots": {
+            "Carriageway_690.jpg": {
+                "orientation": 1, 
+                "camera": "v2 pointgrey zebra2cropped-carriageway -1 -1 perspective 0.9375", 
+                "gps_position": [
+                    -74.058502395732233, 
+                    -76.911172403149976, 
+                    1.9991067880764604
+                ], 
+                "gps_dop": 0.92, 
+                "rotation": [
+                    -1.004290479466216, 
+                    -2.4825372453685297, 
+                    1.5351292851890692
+                ], 
+                "translation": [
+                    -19.869012347572642, 
+                    65.123691987561401, 
+                    -83.231830027510313
+                ], 
+                "capture_time": 0.0
+            }
+        }, 
+        "points": {
+            "221540": {
+                "color": [
+                    158.0, 
+                    164.0, 
+                    154.0
+                ], 
+                "reprojection_error": 0.000983403507837703, 
+                "coordinates": [
+                    -68.43875273597487, 
+                    -128.57323611311807, 
+                    -1.1259013535468423
+                ]
+            }
+        }
+    }
+]
