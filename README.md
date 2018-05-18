@@ -23,8 +23,8 @@ After building, it can be run on Windows by using command
 I have included an example reconstruction file in the folder Data. <br>
 
 An example to run this under cmd terminal on Windows is by <br>
-`undistort D:\\extract-pose-from-OpenSfM-reconstruction\\undistort\\Data\\reconstruction_20151022_153411_CW_4.json`
-or on Linux as
+`undistort D:\\extract-pose-from-OpenSfM-reconstruction\\undistort\\Data\\reconstruction_20151022_153411_CW_4.json`<br>
+or on Linux as<br>
 `undistort /home/user/source/extract-pose-from-OpenSfM-reconstruction/undistort/Data/reconstruction_20151022_153411_CW_4.json`
 
 The code will create a new folder named `undistorted` under the main path, by using system command. As illustrate above, slash must be used according to the running operating system (that is `\\` for Windows and `/` for Linux). This is because excuting command `mkdir path` will fail on Windows if the forward slash `/` is used when the program creates a new folder. To avoid the hassle about slash, you may comment out the command to create the folder as shown in the code below:
