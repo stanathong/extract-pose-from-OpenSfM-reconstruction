@@ -14,7 +14,7 @@ p11 p12 p13 p14
 p21 p22 p23 p24
 p31 p32 p33 p34
 
-gps_x pgs_y gps_z<br>
+gps_x pgs_y gps_z
 
 ```
 The code is developed in C++ using MS Visual Studio 2012 BUT there is no reference to any MFC specific functions. It uses [RapidJson](http://rapidjson.org/) to read the content from the json file. However, there is no need to download this library as all the necessary files are already included in this project under the folder "external".
